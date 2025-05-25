@@ -1,0 +1,55 @@
+#proj {
+  display: grid;
+  grid-template-columns: 30% 70%;
+  background-color: #1e1e1e;
+  gap: 1.25rem;
+  overflow: hidden;
+  height: 100vh;
+}
+
+aside {
+  margin-left: auto;
+  background-image: url(../assets/Background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 0.75rem;
+  margin-block: 1.25rem;
+  width: 25rem;
+  height: 41.5rem;
+
+  header {
+    margin: 2rem;
+
+    img {
+      height: 3rem;
+      margin-bottom: 1rem;
+    }
+
+    h1 {
+      font: 400 2.5rem var(--font-lecker);
+      color: #ff598b;
+      margin-bottom: 0.25rem;
+    }
+
+    span {
+      color: var(--text-head);
+      font: var(--body-md);
+    }
+  }
+}
+
+main {
+  height: 42rem;
+  overflow: auto;
+  background-color: var(--shape-body);
+  margin-block: 1.25rem;
+  border-radius: 0.75rem;
+  width: 98%;
+
+  h1 {
+    color: var(--text-head);
+    font: var(--head-md);
+    margin-inline: 8.125rem;
+    padding-block: 5rem 2.5rem;
+  }
+}
